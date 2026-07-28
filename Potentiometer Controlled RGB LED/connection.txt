@@ -1,0 +1,41 @@
+=========================================
+Project : Potentiometer Controlled RGB LED
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. Potentiometer
+3. RGB LED (Common Cathode)
+4. Three 220Ω Resistors
+5. Jumper Wires
+
+Connections
+-----------
+
+Potentiometer
+
+Left Pin -------------> Arduino 5V
+
+Middle Pin -----------> Arduino A0
+
+Right Pin ------------> Arduino GND
+
+
+RGB LED
+
+Red Pin -------------> Arduino D9 through 220Ω resistor
+
+Green Pin -----------> Arduino D10 through 220Ω resistor
+
+Blue Pin ------------> Arduino D11 through 220Ω resistor
+
+Common Cathode ------> Arduino GND
+
+
+Working
+-------
+
+Rotate the potentiometer.
+
+The brightness of the RGB LED changes according to the potentiometer position.
