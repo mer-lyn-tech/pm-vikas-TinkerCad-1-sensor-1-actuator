@@ -1,0 +1,33 @@
+# PIR Motion Alarm
+
+## Aim
+
+Detect motion using a PIR sensor and activate a buzzer.
+
+## Components
+
+- Arduino UNO
+- PIR Motion Sensor
+- Piezo Buzzer
+
+## Connections
+
+PIR OUT → D2
+
+Buzzer (+) → D8
+
+## Working
+
+Whenever the PIR sensor detects movement, the buzzer turns ON.
+
+Otherwise, it remains OFF.
+
+## Platform
+
+Arduino UNO
+
+Tinkercad
+
+## Author
+
+Merlyn Antony

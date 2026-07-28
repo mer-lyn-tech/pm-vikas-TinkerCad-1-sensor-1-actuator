@@ -1,0 +1,13 @@
+Photoresistor
+
+Leg1 -> 5V
+
+Leg2 -> A0
+
+10kΩ -> GND
+
+LED
+
+Anode -> 220Ω -> D7
+
+Cathode -> GND
