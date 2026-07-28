@@ -1,0 +1,43 @@
+=========================================
+Project : Temperature Alert System
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. TMP36 Temperature Sensor
+3. LED
+4. 220Ω Resistor
+5. Jumper Wires
+
+Connections
+-----------
+
+TMP36
+
+Left Pin -----------> Arduino 5V
+
+Middle Pin ---------> Arduino A0
+
+Right Pin ----------> Arduino GND
+
+
+LED
+
+Arduino D8 ---------> 220Ω Resistor
+
+220Ω Resistor ------> LED Long Leg (Anode)
+
+LED Short Leg ------> Arduino GND
+
+
+Working
+-------
+
+Temperature > 30°C
+
+LED ON
+
+Temperature <= 30°C
+
+LED OFF
