@@ -1,0 +1,56 @@
+=========================================
+Project : Light Intensity Alarm
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. Photoresistor (LDR)
+3. 10kΩ Resistor
+4. Piezo Buzzer
+5. Breadboard
+6. Jumper Wires
+
+Connections
+-----------
+
+Photoresistor (LDR)
+
+One Leg -------------> Arduino 5V
+
+Other Leg -----------> Arduino A0
+
+10kΩ Resistor
+
+One End -------------> Arduino A0
+
+Other End -----------> Arduino GND
+
+
+Piezo Buzzer
+
+Positive (+) --------> Arduino D8
+
+Negative (-) --------> Arduino GND
+
+
+Working
+-------
+
+Low Light (Dark)
+
+Buzzer ON
+
+Bright Light
+
+Buzzer OFF
+
+
+Expected Output
+---------------
+
+Dark Environment
+→ Buzzer sounds
+
+Bright Environment
+→ Buzzer remains OFF
