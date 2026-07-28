@@ -1,0 +1,52 @@
+=========================================
+Project : Push Button Controlled LED
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. Push Button
+3. LED
+4. 220Ω Resistor
+5. Jumper Wires
+
+Connections
+-----------
+
+Push Button
+
+One Terminal ----------> Arduino Digital Pin D2
+
+Opposite Terminal -----> Arduino GND
+
+
+LED
+
+Arduino Digital Pin D8 ---> 220Ω Resistor
+
+220Ω Resistor -----------> LED Anode (Long Leg)
+
+LED Cathode (Short Leg) --> Arduino GND
+
+
+Working
+-------
+
+Button Pressed
+
+LED ON
+
+
+Button Released
+
+LED OFF
+
+
+Expected Output
+---------------
+
+Press the Push Button
+→ LED turns ON
+
+Release the Push Button
+→ LED turns OFF
