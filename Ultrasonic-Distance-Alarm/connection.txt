@@ -1,0 +1,42 @@
+=========================================
+Project : Ultrasonic Distance Alarm
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. Ultrasonic Sensor (HC-SR04)
+3. Piezo Buzzer
+4. Jumper Wires
+
+Connections
+-----------
+
+Ultrasonic Sensor
+
+VCC -------------> Arduino 5V
+
+GND -------------> Arduino GND
+
+TRIG ------------> Arduino D9
+
+ECHO ------------> Arduino D10
+
+
+Piezo Buzzer
+
+Positive (+) ----> Arduino D8
+
+Negative (-) ----> Arduino GND
+
+
+Working
+-------
+
+Distance < 15 cm
+
+Buzzer ON
+
+Distance >= 15 cm
+
+Buzzer OFF
