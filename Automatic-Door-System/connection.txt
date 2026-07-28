@@ -1,0 +1,48 @@
+=========================================
+Project : Automatic Door System
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. Ultrasonic Sensor (HC-SR04)
+3. Servo Motor
+4. Jumper Wires
+
+Connections
+-----------
+
+Ultrasonic Sensor
+
+VCC ------------> Arduino 5V
+
+GND ------------> Arduino GND
+
+TRIG -----------> Arduino D9
+
+ECHO -----------> Arduino D10
+
+
+Servo Motor
+
+Red Wire --------> Arduino 5V
+
+Brown/Black -----> Arduino GND
+
+Orange/Yellow ---> Arduino D6
+
+
+Working
+-------
+
+Distance < 15 cm
+
+Servo rotates to 90°
+
+Door Opens
+
+Distance >= 15 cm
+
+Servo rotates to 0°
+
+Door Closes
