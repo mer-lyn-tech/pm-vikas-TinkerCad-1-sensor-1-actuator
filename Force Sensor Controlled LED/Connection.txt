@@ -1,0 +1,49 @@
+=========================================
+Project : Force Sensor Controlled LED
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. Force Sensitive Resistor (FSR)
+3. LED
+4. 10kΩ Resistor
+5. 220Ω Resistor
+6. Breadboard
+7. Jumper Wires
+
+Connections
+-----------
+
+Force Sensor (FSR)
+
+Pin 1 -------------> Arduino 5V
+
+Pin 2 -------------> Arduino A0
+
+10kΩ Resistor
+
+One End -----------> Arduino A0
+
+Other End ---------> Arduino GND
+
+
+LED
+
+Arduino D8 --------> 220Ω Resistor
+
+220Ω Resistor -----> LED Anode (Long Leg)
+
+LED Cathode --------> Arduino GND
+
+
+Working
+-------
+
+Pressure Applied
+
+LED ON
+
+No Pressure
+
+LED OFF
