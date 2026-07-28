@@ -1,0 +1,47 @@
+=========================================
+Project : Potentiometer Controlled Servo
+=========================================
+
+Components Used
+---------------
+1. Arduino UNO
+2. Potentiometer
+3. Servo Motor
+4. Jumper Wires
+
+Connections
+-----------
+
+Potentiometer
+
+Left Pin -------------> Arduino 5V
+
+Middle Pin -----------> Arduino A0
+
+Right Pin ------------> Arduino GND
+
+
+Servo Motor
+
+Red Wire -------------> Arduino 5V
+
+Brown/Black Wire -----> Arduino GND
+
+Orange/Yellow Wire ---> Arduino D9
+
+
+Working
+-------
+
+Rotate the potentiometer.
+
+The servo motor rotates according to the knob position.
+
+Expected Output
+---------------
+
+Minimum Rotation ---> Servo at 0°
+
+Middle Position ---> Servo at 90°
+
+Maximum Rotation ---> Servo at 180°
